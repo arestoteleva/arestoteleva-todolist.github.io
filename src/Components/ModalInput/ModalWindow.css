@@ -1,0 +1,82 @@
+.modal{
+    width: 268px;
+    height: 234px;
+    background-color: #E4E6E7;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+    border-radius: 12px;
+    position: absolute;
+    width: 268px;
+    height: 234px;
+    left: 1015px;
+    top: 55px;
+  }
+  
+  /* .modal-content {
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+  } */
+  
+  .Input-content{
+    width: 255px;
+    height: 120px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    border-style: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    padding-left: 5%;
+    padding-top: 4%;
+    color: #959595;
+  
+    
+  }
+  
+  .text-style{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+/* identical to box height, or 138% */
+
+    display: flex;
+    align-items: center;
+
+    color: #151517;
+  }
+
+  .add-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 3%;
+
+    width: 76px;
+    height: 40px;
+
+    background: rgba(8, 30, 52, 1);
+    color: #FFFFFF;
+    border-style: none;
+    border-radius: 30px;
+
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+    
+  
+  }

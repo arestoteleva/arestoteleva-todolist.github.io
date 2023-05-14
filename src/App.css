@@ -1,0 +1,217 @@
+.App {
+  text-align: center;
+}
+
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+.Main{
+padding-left: 5%;
+padding-right: 5%;
+padding-top: 3%;
+height: 1000px;
+}
+.App-header {
+  background-color: white;
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  color: black;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 38px;;
+}
+
+.Subheader{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: black;
+  padding-bottom: 6%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.line2{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.Buttons-style{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-bottom: 6%;
+  /* align-items: flex-start; */
+}
+
+.Buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 10px 24px; */
+  gap: 8px;
+  width: 84px;
+  height: 40px;
+  background:linear-gradient(0deg, rgba(8, 30, 52, 0.05), rgba(8, 30, 52, 0.05)), #F0F0F0;
+  border-radius: 100px;
+  border-style: none;
+  margin-right: 2%;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  
+}
+
+.Buttons-pressed{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 10px 24px; */
+  gap: 8px;
+  width: 84px;
+  height: 40px;
+  background:rgba(8, 30, 52, 0.42);
+  border-radius: 100px;
+  border-style: none;
+  margin-right: 2%;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: white;
+
+}
+.Button-black{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 14px;
+  gap: 8px;
+  
+
+  width: 52px;
+  height: 52px;
+  left: 1308px;
+  top: 274px;
+  
+  background: linear-gradient(0deg, #081E34, #081E34), #F0F0F0;
+  border-radius: 100px;
+  border-style: none;
+
+  color: white;
+  font-size: 30px;
+}
+
+.Subheader2{
+  height: 52px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  border-bottom-style: ridge;
+  border-color: #E4E6E7;
+
+  
+  display: flex;
+  align-items: baseline;
+  
+  color: #151517;
+}
+
+.Items-list{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.item{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.checkbox-style{
+display: flex;
+justify-content: flex-start;
+width: 16px;
+height: 16px;
+left: 4px;
+top: 4px;
+border: 1.4px solid #AEAEAE;
+border-radius: 4px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.final-part{
+display: flex;
+justify-content: space-between;
+padding-top: 20%;
+}
+
+.nfactext{
+  width: 234px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #081E34;
+}
+
+.creditstext{
+width: 180px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #081E34;
+opacity: 0.5;
+}
